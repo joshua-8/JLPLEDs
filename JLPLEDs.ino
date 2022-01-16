@@ -18,7 +18,7 @@ void loop() {
   for (int L = 0; L < lct; L++) {
 
     //rainbow inward circle
-    leds[L] = CHSV(millis() / 10 + 3 * sqrt(sq(coords[L][x] - cx) + sq(coords[L][y] - cy)), 255, 100);
+    leds[L] = CHSV(millis() / 8 + 3 * sqrt(sq(coords[L][x] - cx) + sq(coords[L][y] - cy)), 255, 100);
 
     //inward hard edge circle
     //    if (((byte)(millis() / 2 + 3 * sqrt(sq(coords[L][x] - cx) + sq(coords[L][y] - cy)))) < 20) {
