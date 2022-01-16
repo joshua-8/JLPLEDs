@@ -33,10 +33,10 @@ void loop() {
   for (L = 0; L < lct; L++) {
 
     //    //inward rainbow circle
-    //    leds[L] = CHSV(millis() / 8 + 3 * sqrt(sq(coordx) + sq(coordy)), 255, 100);
+    //    leds[L] = CHSV(millis() / 8 + 3 * sqrt(sq(coordx) + sq(coordy)), 255, 255);
 
     //    //outward rainbow circle
-    //    leds[L] = CHSV(millis() / 8 - 3 * sqrt(sq(coordx) + sq(coordy)), 255, 100);
+    //    leds[L] = CHSV(millis() / 8 - 3 * sqrt(sq(coordx) + sq(coordy)), 255, 255);
 
     //    //inward hard edge circle
     //    if (((byte)(millis() / 2 + 3 * sqrt(sq(coordx) + sq(coordy)))) < 20) {
