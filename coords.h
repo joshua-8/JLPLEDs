@@ -1,4 +1,4 @@
-byte coords[lct][2] = {
+const byte coords[lct][2] = {
   { 29  , 120 }, //bottom of j
   { 34  , 120 },
   { 41  , 120 },
